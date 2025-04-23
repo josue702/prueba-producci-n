@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hola Jenkins') {
             steps {
-                bat 'echo ¡Hola Josue desde Jenkins en Windows!'
+                sh 'echo ¡Hola Josue desde Jenkins en Linux!'
             }
         }
     }
